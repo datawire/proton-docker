@@ -4,6 +4,9 @@
 
 FROM      ubuntu
 
+# Version
+RUN echo "Datawire.io Proton v0.0.1"
+
 # Get updates and install GIT
 RUN apt-get update && apt-get install -y git
 
